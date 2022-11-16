@@ -1,0 +1,425 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+	.case-menu-ul {
+		text-align: center;
+	}
+
+	.case-menu {
+		width: 5%;
+	}
+
+	.case-block {
+		width: 37%;
+	}
+
+	.case-block2 {
+		width: 58%;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	.case-block {
+		width: 40%;
+	}
+
+	.case-block2 {
+		width: 55%;
+	}
+}	
+
+
+@media screen and (max-width: 1050px) {
+	.header-link {
+		display: none;
+	}
+
+	.case-menu {
+	    width: 6%;
+	}
+
+	.case-block {
+	    width: 47%;
+	}
+
+	.case-block2 {
+	    width: 47%;
+	}
+
+  
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 900px) {
+	
+
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.case-menu {
+	    width: 8%;
+	}
+
+	.case-block {
+	    width: 62%;
+	}
+
+	.case-block2 {
+	    width: 30%;
+	}
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	.header-link2 {
+		display: none;
+	}
+
+	.header {
+		padding: 8px 0;
+	}
+
+	.container {
+		padding: 0 16px;
+	}
+
+	.case-container {
+		padding: 0;
+	}
+
+	.header-button {
+		display: none;
+	}
+
+	.header-button2 {
+		padding: 0 49px 0 0;
+		display: block;
+	}
+
+	.header-wrap {
+		position: relative;
+	}
+
+	.header {
+		position: relative;
+		z-index: 11;
+	}
+
+	/*Burger*/
+
+	.burger {
+	    display: block !important;
+	}
+
+	.mt-munu-mb .header-navigation-wr {
+	    display: block !important;
+	}
+
+	.header-link2-mb {
+		
+		display: block;
+	}
+
+	.header-link2 {
+		border-left: none;
+		padding: 0 0 8px 0;
+	}
+
+	.header-link2 a {
+		width: 100%;
+	}
+
+	.case-menu {
+		display: none;
+	}
+
+	.case-wrap {
+		flex-wrap: wrap;
+	}
+
+
+	.case-block3 {
+		display: block;
+		width: 100%;
+	}
+
+	.case-block {
+		background: #fff;
+		position: relative;
+		z-index: 1;
+		margin: -50px 0 0 0;
+		border-radius: 20px 20px 0 0;
+		width: 100%;
+		padding: 29px 16px 70px 16px;
+	}
+
+	.case-block2 {
+		display: none;
+	}
+
+	.case-back a {
+		padding: 6px 0;
+		width: 100%;
+		justify-content: center;
+		border: 1px solid #E5EAF2;
+		border-radius: 14px;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+  	.burger-block {
+	    width: 37%;
+	}
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  	.case-border {
+  		border: none;
+  		padding: 16px 0 0 0;
+  	}
+
+  	.case-border2 {
+  		border: none;
+  		padding: 24px 0 0 0;
+  		margin: 0;
+  	}
+
+  	.case-border-links {
+  		display: none;
+  	}
+
+  	.case-border-map-link a span {
+  		display: none;
+  	}
+
+  	.case-border-map-link a img {
+  		display: none;
+  	}
+
+  	.case-border-suptitle {
+  		display: none;
+  	}
+
+  	.case-border-title {
+  		padding: 0;
+  	}
+
+  	.case-border-map-link {
+  		padding: 2px 0 0 0;
+  	}
+
+  	.case-border-data-mb {
+  		display: none;
+  	}
+
+  	.case-border-img img {
+  		width: 60px;
+  	}
+
+  	.case-border-img {
+	    width: 14%;
+	}
+
+	.case-border-block {
+	    width: 86%;
+	    padding: 0px 0 0 16px;
+	}
+
+	.case-border2-grafik {
+		display: none;
+	}
+
+	.case-border-data-mb2 {
+	    text-align: right;
+	    display: block;
+	    width: 100%;
+	}
+
+	.case-border2-price-price {
+	    font-family: 'Inter-SemiBold';
+	    font-size: 16px;
+	    line-height: 24px;
+	    letter-spacing: -0.6px;
+	    color: #0C1018;
+	}
+
+	.case-border2-price-price2 {
+	    font-family: 'Inter-Regular';
+	    font-size: 16px;
+	    line-height: 24px;
+	    letter-spacing: -0.6px;
+	    color: #0C1018;
+	}
+
+	.case-border2-price-plus {
+	    padding: 0px 0 0 4px;
+	    font-family: 'Inter-Regular';
+	    font-size: 10px;
+	    line-height: 14px;
+	    letter-spacing: -0.1px;
+	    color: #3CB86E;
+	}
+
+	.case-border2-price-minus {
+	    padding: 0 0 0 4px;
+	    font-family: 'Inter-Regular';
+	    font-size: 10px;
+	    line-height: 14px;
+	    letter-spacing: -0.1px;
+	    color: #EF5247;
+	}
+
+	.case-border2-inner-title {
+	    font-family: 'Inter-Regular';
+	    font-size: 14px;
+	    line-height: 18px;
+	    letter-spacing: -0.35px;
+	    color: #0C1018;
+	}
+
+	.case-border2-inner-price {
+	    font-family: 'Inter-SemiBold';
+	    font-size: 16px;
+	    line-height: 24px;
+	    letter-spacing: -0.6px;
+	    color: #0C1018;
+	}
+
+	.case-border2-inner {
+	    margin: 16px 0 0 0;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding: 11px 0 24px 0;
+	    border-top: 1px solid #E5EAF2;
+	}
+
+	.header-logo a img {
+		width: 190px;
+	}
+
+	.burger-block {
+	    width: 35%;
+	}
+
+	.case-border3 {
+		border: none;
+		padding: 0;
+	}
+
+	.case-border3-padding {
+		padding: 0;
+	}
+
+	.case-border3-bg {
+	    background: rgba(255, 149, 0, 0.05);
+	    padding: 16px 16px;
+	    margin: 8px -16px 24px -16px;
+	}
+
+	.case-border3-link {
+	    padding: 24px 0 0 0;
+	}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	.burger-block {
+	    width: 31%;
+	}
+
+	.case-border-img {
+	    width: 17%;
+	}
+
+	.case-border-block {
+	    width: 83%;
+	    padding: 0px 0 0 16px;
+	}
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+	.case-border2-block {
+		width: 65%;
+	}
+
+	.case-border2-block-mb {
+		width: 35%;
+	}
+
+	.burger-block {
+	    width: 28%;
+	}
+
+	.case-border-block {
+	    width: 82%;
+	    padding: 0px 0 0 16px;
+	}
+
+	.case-border-img {
+	    width: 18%;
+	}
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+	.case-border-yellow-title {
+	    font-family: 'Inter-Regular';
+	    font-size: 10px;
+	    line-height: 16px;
+	    letter-spacing: -0.1px;
+	    color: #FFFFFF;
+	}
+
+	.burger-link a {
+	    font-family: 'Inter-Medium';
+	    text-decoration: none;
+	    display: block;
+	    padding: 12px 0;
+	    background: #FF9500;
+	    border-radius: 3px;
+	    width: 100%;
+	    font-size: 14px;
+	    line-height: 24px;
+	    text-align: center;
+	    color: #FFFFFF;
+	}
+
+	.burger-inner-link a {
+	    font-family: 'Inter-SemiBold';
+	    text-decoration: none;
+	    font-size: 14px;
+	    line-height: 24px;
+	    letter-spacing: -0.3px;
+	    color: #0C1018;
+	}
+}
